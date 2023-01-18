@@ -1,0 +1,84 @@
+what is pip?
+pip is s standard package-management system used to install 
+and manage software packages written in Python, Many packages 
+can be found in the defalut source for packages and their
+dependencies - Python package Index. Most distributions
+of Python come and pip preinstalled;
+
+How to install?
+cmd- pip(pip not found) so install pip we have to give command 
+cmd- yum install pythin-pip(It will install pip in the pc)
+cmd-pip(Now it will tell the user that pip is installed)
+cmd- pip list(will show that list installed in pip)
+
+If Want to install some pip package?
+cmd- pip install pandas
+cmd- pip install paramiko
+
+If want to un-install the pip packages?
+cmd- pip uninstall paramiko
+cmd- pip unistall pandas
+
+For version check:-
+cmd- pip --version
+
+
+What is Module?
+In Python, a module is a self-contained piece of code that contains
+one or more functions, classes, or variables that you can use in your
+programs. Modules are useful because they allow you to break up your
+code into smaller, more manageable pieces, and they also allow you to
+reuse code in multiple programs.
+
+To use a module in your program, you first need to import it using
+the import statement. For example:
+///////////////////////////////////////
+import math
+
+x = math.cos(math.pi)
+///////////////////////////////////////
+
+In this example, the math module is being imported, and the cos function
+from the module is being used to compute the cosine of pi.
+
+There are many built-in modules in Python, and you can also create your own
+custom modules. To create a custom module, you simply create a .py file with
+your code and then import it into your program using the import statement.
+
+How to install a Module?
+
+
+To install a module in Python, you can use the pip command, which is a package
+manager for Python. pip comes pre-installed with Python, so you should already
+have it on your system.
+
+To install a module using pip, open a terminal or command prompt and type the
+following command:
+
+/////////////////////////////////////////////////////////////////////////////////
+Copy code
+pip install module_name
+Replace module_name with the name of the module you want to install.
+For example, to install the requests module, you would type:
+
+Copy code
+pip install requests
+If you want to install a specific version of the module, you can specify 
+the version number by using the == operator. For example:
+
+Copy code
+pip install requests==2.23.0
+This will install version 2.23.0 of the requests module.
+
+If you don't have permission to install packages system-wide, you can install
+the package in your user directory by adding the --user flag to the pip command.
+For example:
+
+Copy code
+pip install requests --user
+This will install the requests module in your user directory, which you can then
+import into your Python programs.
+//////////////////////////////////////////////////////////////////////////////////
+
+
+

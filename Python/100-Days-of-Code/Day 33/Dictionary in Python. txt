@@ -1,0 +1,32 @@
+In Python, a dictionary is a collection of key-value pairs, where each key is unique.
+Dictionaries are mutable, which means they can be modified after they are created.
+They are implemented as hash tables, which provide fast access to values based on their keys.
+You can create a dictionary using curly braces {} and separating keys and values using colons.
+
+///////////////////CODE//////////////////
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+/////////////////////////////////////////
+
+In Python, a dictionary is a collection of key-value pairs, where each key is unique. Dictionaries are mutable, which means they can be modified after they are created. They are implemented as hash tables, which provide fast access to values based on their keys. You can create a dictionary using curly braces {} and separating keys and values using colons.
+
+For example:
+
+Copy code
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+Here, the keys are 'a', 'b', and 'c', and the values are 1, 2, and 3 respectively.
+You can access the value for a particular key using square brackets [].
+
+///////CODE////////
+print(my_dict['a']) # output: 1
+///////////////////
+
+You can also add, update or delete the key-value pairs in a dictionary
+
+my_dict['d'] = 4 # Adding a new key-value pair
+print(my_dict) # output : {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+my_dict['a'] = 10 # Updating an existing key-value pair
+print(my_dict) # output : {'a': 10, 'b': 2, 'c': 3, 'd': 4}
+
+del my_dict['b'] # Deleting an existing key-value pair
+print(my_dict) # output : {'a': 10, 'c': 3, 'd': 4}

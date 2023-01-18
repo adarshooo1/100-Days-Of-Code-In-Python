@@ -1,0 +1,6 @@
+This project is taken from Code With Harry and Trying to make some modification
+
+This is the project folder where we are creating some projects like:-
+1.Jarvis:- An A.I tool which will work on speech recoganisation of the user.
+2.Love Calculator:- A tool which will work on Arithmatic Operation able to 
+  take an type of command by user and calculate some percentage of strings and Integer Datatype

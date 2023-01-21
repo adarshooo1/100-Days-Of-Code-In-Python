@@ -1,0 +1,11 @@
+In Python, there are several modes for input/output (I/O) operations. The most commonly used modes are:
+
+"r" (read mode): This mode is used to open a file for reading. The file pointer is placed at the beginning of the file. If the file does not exist, an error is raised.
+
+"w" (write mode): This mode is used to open a file for writing. If the file already exists, its contents will be truncated. If the file does not exist, a new file with that name will be created.
+
+"a" (append mode): This mode is used to open a file for writing. The file pointer is placed at the end of the file. If the file does not exist, a new file with that name will be created.
+
+"x" (exclusive creation mode): This mode is used to open a file for writing. If the file already exists, an error is raised. If the file does not exist, a new file with that name will be created.
+
+"b" (binary mode): This mode is used to open a file in binary mode. It can be combined with the above modes. For example, "rb" opens a file in binary read mode, "wb" opens a file in binary write mode, etc.

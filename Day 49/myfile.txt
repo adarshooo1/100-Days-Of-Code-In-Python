@@ -1,0 +1,6 @@
+Hello this is myfile.txt
+r = read
+w = write
+a = append
+
+This is about IO file

@@ -1,0 +1,39 @@
+In Python, a global variable is a variable that is defined outside of any function or class,
+and can be accessed and modified from anywhere in the program. A local variable, on the other hand,
+is a variable that is defined inside a function or class, and can only be accessed and modified
+within that specific function or class.
+
+Here is an example of a global variable being accessed and modified within a function:
+
+x = 5  # global variable
+
+def example():
+    print(x)  # prints 5
+    x = 10  # modifies the global variable x
+
+example()
+print(x)  # prints 10
+
+
+///////////////////////////////////////
+And here is an example of a local variable being defined and used within a function:
+
+def example():
+    y = 5  # local variable
+    print(y)  # prints 5
+
+example()
+print(y)  # This will give an error because y is a local variable and not accessible outside the function example().
+///////////////////////////////////////
+It is important to note that if you want to modify a global variable inside a function, you need to use the keyword "global" inside the function.
+
+def example():
+    y = 5  # local variable
+    print(y)  # prints 5
+
+example()
+print(y)  # This will give an error because y is a local variable and not accessible outside the function example().
+///////////////////////////////////////////
+In general, it is considered best practice to use local variables as much as possible, as this can help make code more modular and easier to understand and maintain.
+
+

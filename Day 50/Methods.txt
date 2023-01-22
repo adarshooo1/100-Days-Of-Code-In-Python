@@ -1,0 +1,42 @@
+The readlines():-
+method in Python is used to read all the lines of a file and return them as a list of strings.
+Each element of the list corresponds to a line in the file.
+
+Here's an example of how to use the readlines() method:
+////////////////////////////////////////////////////////
+with open('example.txt', 'r') as file:
+    lines = file.readlines()
+    for line in lines:
+        print(line)
+/////////////////////////////////////////////////////////
+In this example, example.txt is the file that is being read, and 'r' is the mode in which the file is opened,
+which means read mode. The with open statement is used to open the file, and the file.readlines() statement
+reads all the lines of the file and stores them in the lines variable. The for loop is used to iterate through
+the lines and print each line.
+
+It's important to note that readlines() reads the entire file into memory, so it may cause memory issues when reading large files
+
+The writelines():-
+The writelines() method in Python is used to write a list of strings to a file. The method takes a list of strings
+as its argument and writes each string in the list to a new line in the file. The file must be opened in write mode
+before calling the writelines() method. Here is an example:
+
+///////////////////////////////////////////////////////////////////////////
+lines = ["This is line 1", "This is line 2", "This is line 3"]
+with open("example.txt", "w") as f:
+    f.writelines(lines)
+////////////////////////////////////////////////////////////////////////////   
+
+This code creates a new file named "example.txt" and writes the strings in the "lines" list to the file,
+with each string being written to a new line.
+
+Note that the method doesn't add newline characters on the end of the lines,
+so if you want to do that you can modify your list to include newline characters at the end of each line.
+
+////////////////////////////////////////////////////////////////////////////////
+lines = ["This is line 1\n", "This is line 2\n", "This is line 3\n"]
+/////////////////////////////////////////////////////////////////////////////////
+
+
+
+

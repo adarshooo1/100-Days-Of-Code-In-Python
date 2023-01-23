@@ -1,0 +1,37 @@
+In Python, a lambda function is a small,
+anonymous function that is defined using the lambda keyword.
+These functions are also known as anonymous or inline functions.
+They are useful for situations where a small, throwaway function
+is needed, such as in situations where a function is passed as an 
+rgument to another function.
+
+The syntax for a lambda function is as follows:
+////////////////////////////////////////////////////////////
+lambda arguments: expression
+////////////////////////////////////////////////////////////
+The arguments are the inputs to the function, and the expression
+is the single statement that is executed by the function. For example,
+the following is a lambda function that takes two arguments and returns
+their sum:
+
+////////////////////////////////////////////////////////////
+lambda x, y: x + y
+/////////////////////////////////////////////////////////////
+Lambda functions are often used in conjunction with other functional
+programming constructs such as map(), filter(), and reduce(). These
+functions take other functions as arguments, and lambda functions
+are useful in these situations because they can be defined and passed
+as arguments in a concise and readable way. For example:
+
+//////////////////////////////////////////////////////////////
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(lambda x: x**2, numbers)
+////////////////////////////////////////////////////////////////
+
+This will return a map object, which will contain the squares of the
+numbers from the given list.
+
+It's important to note that lambda functions are limited in their
+functionality compared to regular functions. They can only contain a
+single expression, and they cannot contain statements or multiple expressions.
+They also.

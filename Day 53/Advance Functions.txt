@@ -1,0 +1,51 @@
+map() function: Map is a higher order function which is taking function as a function arguments.
+
+Example:- map(cube,number) // Where cube is a function and number is a variable.
+
+The map() function applies a
+given function to all the
+elements of an input list or other iterable
+object. The function takes two arguments:
+a function and an iterable. It applies the
+function to each element of the iterable
+and returns an iterable map object.
+
+////////////////////////////////////////////////////////////////////////
+filter():
+Filter is a function which taking a
+function and variable inside the filter.But the difference
+is function inside the filter is a type of boolean expression.
+if condition is true then it will process the Variable
+
+Example:- filter(filter_function,Numbers) //Here filter_function
+returns only that number which is number%2 == 0; So, filter function
+is filering the variable with the condition is passed.
+
+
+The filter() function is used to filter elements from a given list or
+other iterable object based on a specified condition. The function takes
+two arguments: a function and an iterable. It applies the function to each
+element of the iterable and returns an iterable filter object containing
+only the elements for which the function returned True.The filter() function
+is used to filter elements from a given list or other iterable object based
+on a specified condition. The function takes two arguments: a function and an iterable.
+It applies the function to each element of the iterable and returns an iterable filter
+object containing only the elements for which the function returned True.
+
+////////////////////////////////////////////////////////////////////////////////
+reduce():
+To use the reduce function we have to import it forst then it will work:
+/////////////CODE////////////////////
+from functools inport reduce
+    
+    After that we can use reduce function.
+
+//////////////////////////////////
+The function argument is a function tat takes in two arguement ad returns a single value.
+The iterable arguement is a sequence of elements, such as a list or tuple.
+
+The reduce() function is used to reduce a list or other iterable object to a
+single value by applying a given function to the elements in a cumulative manner.
+The function takes two arguments: a function and an iterable. It applies the
+function cumulatively to the elements of the iterable, from left to right,
+so as to reduce the iterable to a single value.

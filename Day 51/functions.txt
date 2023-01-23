@@ -1,0 +1,3 @@
+seek() function
+tell() function
+truncate() function

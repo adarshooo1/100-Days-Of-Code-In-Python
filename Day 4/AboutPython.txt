@@ -1,0 +1,5 @@
+This is the programm after installing python Libaries and modules. 
+So, It starts with Hello World to the python programming
+
+
+We an do many of the things form the help of python as it is a high level language as well.

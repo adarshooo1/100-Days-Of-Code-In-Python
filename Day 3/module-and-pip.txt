@@ -1,0 +1,23 @@
+what is pip?
+pip is s standard package-management system used to install 
+and manage software packages written in Python, Many packages 
+can be found in the defalut source for packages and their
+dependencies - Python package Index. Most distributions
+of Python come and pip preinstalled;
+
+How to install?
+cmd- pip(pip not found) so install pip we have to give command 
+cmd- yum install pythin-pip(It will install pip in the pc)
+cmd-pip(Now it will tell the user that pip is installed)
+cmd- pip list(will show that list installed in pip)
+
+If Want to install some pip package?
+cmd- pip install pandas
+cmd- pip install paramiko
+
+If want to un-install the pip packages?
+cmd- pip uninstall paramiko
+cmd- pip unistall pandas
+
+For version check:-
+cmd- pip --version

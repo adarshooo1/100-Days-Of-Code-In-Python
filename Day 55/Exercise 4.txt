@@ -1,0 +1,8 @@
+Exercise 4:
+ Create a game of Snake, Water and Gun,
+ In which Snake Defeat Water by Drink it,
+ Gun Defeat Snake by killing him, and
+ Water will Make Gun useless to fire.
+
+Here computer have some value between 0 to 2 and it will randomy shuffle the values and take input form the user and compare, both the values with the help of conditionls.
+When user choose "x" then end the game & print the final scores of both;

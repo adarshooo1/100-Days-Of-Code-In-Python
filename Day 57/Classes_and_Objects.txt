@@ -1,0 +1,7 @@
+In Python, a class is a template or blueprint for creating
+objects (instances of a class). A class defines the properties
+(variables) and methods (functions) that an object of that class
+will have.
+
+An object is an instance of a class, and it has the
+properties and methods defined by the class.

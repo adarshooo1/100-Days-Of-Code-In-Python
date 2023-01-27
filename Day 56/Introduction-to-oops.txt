@@ -1,0 +1,21 @@
+Introuction to Object-Oriented programming
+
+Introuction to Object-Oriented Programming in python: In programming languages,
+mainly there are two approaches that are used to write program and code.
+
+>>1. Procedural Programming
+>>2. Object-Oriented Programming
+
+The procedural programming we are following till now is the "Procedural Programming" approach.
+So, afterwards we will learn about OOPs.The basic idea of Object Oriented Prrogramming in python
+is to use classes and objects to represent real-world concepts and entities.
+
+A class is a blueprint or template for creating objects. It defines the properties and 
+methods that an object of that class will have. properties are the data or state of an object, 
+and methods are the actions or behaviors that an object can be perform.
+
+
+An object is an instance of a class, and it contains its own data and methods, for example,
+you could create a class called "Human" that has such properties such as name,age and pet.
+And a function of wishes(), Each instance of the person class would be a unique
+object with its own name and age, But they would all have the same method to  

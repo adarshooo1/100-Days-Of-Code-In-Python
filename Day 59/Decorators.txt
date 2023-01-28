@@ -1,0 +1,14 @@
+In Python,
+A decorator is a design pattern to extend or modify the functionality
+of a function or class without changing the source code of the original
+function or class.
+
+A decorator is a function that takes another function
+as an argument and returns a new function that includes the additional
+functionality.
+
+The new function is then used to replace the original function,
+effectively "decorating" it with the new functionality.
+
+Decorators are often
+used in Python for logging, authentication, and other purposes.

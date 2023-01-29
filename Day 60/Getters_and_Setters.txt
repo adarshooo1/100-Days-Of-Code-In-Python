@@ -1,0 +1,10 @@
+In Python,
+Getters and setters are methods used to access
+and set the values of object attributes, respectively.
+Getters are used to retrieve the value of an attribute,
+while setters are used to set the value of an attribute.
+These methods can be used to enforce encapsulation,
+by controlling access to an object's attributes and
+preventing unauthorized modification.
+They are implemented using the @property and @attribute.setter decorators,
+respectively.

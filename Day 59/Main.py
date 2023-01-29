@@ -14,14 +14,14 @@ def Greet(gx): # Here Greet(gx) Greet is taking a function;
         print("How are you Today❤️")  # Print the function we want to print after the object.
     return bfx #Now we return the function.
 
-@Greet #Annotation of Greet which will use, just above the function. In that we will call that arguement
+@Greet #Annotation of Greet which do use, just above the function. In that we will call that arguement
 def Name(name): # As we can see that the argument inside Name() function (name) was the same argument passed in the Greet(gx) and gx was calling the name function inside the function:- gx(name),Here Greet taking gx as argument and gx was taking the argument gx(name) 
     print(name)
 
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Name("<Viewers>") # Here we called the function..
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-@Greet
+@Greet # Annotation of Greet. To use the Decorators.
 def Game(name):
     print(name)
 Game("PUBG")  
@@ -29,26 +29,26 @@ Game("PUBG")
 
 
 
-# #Example 2
-# def my_decorator(func):
-#     def wrapper():
-#         print("Something is happening before the function is called.")
-#         func()
-#         print("Something is happening after the function is called.")
-#     return wrapper
+#Example 2
+def my_decorator(func):
+    def wrapper(): # Here we called a empty function.
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
 
-# def say_hello():
-#     print("Hello!")
+def say_hello():
+    print("Hello!")
 
-# say_hello = my_decorator(say_hello)
-# say_hello() #Example 1
+say_hello = my_decorator(say_hello) # Here we called the function with the.
+say_hello() #Example 1
 
-# # With annotation
-# @my_decorator
-# def say_hello():
-#     print("Hello 3")
+# With annotation
+@my_decorator
+def say_hello():
+    print("Hello 3")
 
-# say_hello() #Example 2
+say_hello() #Example 2
 
 
 

@@ -1,0 +1,17 @@
+Inheritance is a concept in object-oriented programming (OOP)
+where a child class can inherit attributes and behaviors from a parent class.
+
+This allows the child class to reuse, extend or modify the attributes and behaviors
+defined in the parent class.
+
+In Python, inheritance is achieved by using the class inheritance mechanism,
+where a class can inherit from one or multiple classes.
+
+This helps to reduce code duplication and improves code maintainability.
+
+Types Of Inheritance:-
+1: Single Inheritance
+2: Multiple Inheritance
+3: Multi-level Inheritance
+4: Hierarchical Inheritance
+5: Hybrid Inheritance

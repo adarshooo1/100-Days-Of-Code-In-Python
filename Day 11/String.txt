@@ -1,0 +1,29 @@
+In Python, a string is a sequence of characters.
+Strings are immutable, which means they cannot
+be changed once they are created.
+
+You can use single quotes or double quotes to
+define a string in Python.
+For example:-
+////////////////////CODE/////////////////////
+string1 = 'Hello, world!'
+string2 = "Hello, world!"
+////////////////////////////////////////////
+
+Both of these statements create a string with the
+value "Hello, world!". You can use either single
+quotes or double quotes to define a string,
+as long as you use the same type of quotes to
+start and end the string.
+
+
+You can also use triple quotes to define
+a multi-line string. 
+For example:-
+////////////////////CODE/////////////////////
+string3 = """Hello,
+world!"""
+////////////////////////////////////////////
+
+This creates a string with the value "Hello,\nworld!".
+The \n is a special character that represents a newline.

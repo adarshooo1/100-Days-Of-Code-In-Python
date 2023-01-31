@@ -1,0 +1,4 @@
+Match Case statement simply matching the input
+and as per the defined cases. It is matching the
+case and print the values accounding to the
+input given by the User.

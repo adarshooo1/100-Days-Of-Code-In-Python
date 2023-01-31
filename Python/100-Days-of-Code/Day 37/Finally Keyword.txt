@@ -1,0 +1,6 @@
+After using try()and except() blocks we can also use finally(),In which 
+code is code have to be executed no matter what type of code is.It is used for clean-ups
+
+
+finally() will always be executed wheather code goes to try or except in both of the cases
+it will execute no matter the scenario is,So it saves the programm to crash

@@ -1,0 +1,23 @@
+Recursion is a method of solving problems in which a function calls itself as a subroutine.
+The basic idea is to break a problem down into smaller and simpler subproblems, and then combine the
+solutions to those subproblems to solve the original problem. This can be a powerful technique for
+solving problems, but it can also be difficult to understand and debug if not used carefully.
+
+Here's an example of a simple recursive function in Python that calculates the factorial of a given number:
+
+///////////////////////////code/////////////////////
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+/////////////////////////////////////////////////////
+
+In this example, the function calls itself with a slightly simpler subproblem
+(i.e. n-1) every time it is called. The function uses a base case,
+which is a conditional statement (if n == 0: return 1) that stops the recursion when it is met.
+
+It's important to note that recursion require a base case to stop, or it will loop infinitely.
+
+It is also important to note that while recursion is a powerful problem-solving technique,
+it can also be computationally expensive and lead to stack overflow errors if the recursion is not well-designed.

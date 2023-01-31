@@ -1,0 +1,57 @@
+How Import Works In Python
+
+Import in Python is the process of loading code from a python module into the current script.
+This allows you to use the functions and variables defined in the module in your current script,as
+well as any additional modules that the imported module may depend upon.
+
+To import a module in python, you use the import statement followed by the name of the module.
+For example, to import the math module. 
+contain a variety of mathematical function, you
+would use the following statement
+
+//////////////////////////////////////////
+import math
+
+#Once a module is imported,you can use any of the function and variable defined in the module
+by using the dot notation. For example, to use the sqrt function from the math module, you would
+write:
+
+result = math.sqrt(9)
+print(result) # Output = 3.0 
+///////////////////////////////////////////
+
+
+from Keyword
+/////////////CODE///////////////////////////////
+from math import sqrt,pi #(imported square root and pie from maths module not other unecesssary functions which is keyword.)
+
+result2 = sqrt(81) * pi # Sqrt means square-root of 81 that is 9 and Pi means pie of mathematics 3.141592653589793
+print(result2)
+/////////////////////////////////////////////////
+
+importing everything
+It's also possible to import all functions and variable from a module using the *wildcard.
+However, This is generally not recommended as it can lead to confusion and make it harder to
+understand where specific functions and variable are coming from.
+
+from math import *
+result3 = sqrt(25)
+
+print(result3)
+
+print(pi)
+
+/////////////////////////////////////////
+# The "as" Keyword
+
+import math as mth
+
+result4 = mth.sqrt(81)
+print(result4)
+/////////////////////////////////////////
+
+# The dir functions:-
+
+finally, Python has a built-in function called dir that you can use to view the names of all the
+function and variable defined in a module. This can be hepful for exploring and understanding
+the contents of a new module.

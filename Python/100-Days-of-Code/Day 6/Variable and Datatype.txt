@@ -1,0 +1,15 @@
+What are variables?
+Variable are the containers which hold the value of the Datatype.
+
+What are the Datatype?
+Datatype are the values which defines the type of Information.
+
+Here, We do study about:
+
+Integer Datatype and variable stored in it.
+String;
+Boolen;
+Null;
+List: In list we can strore any varible and it is easy to change;
+Tuple:-It is type of list but variable in it are not mutbale;
+Dict:- In Dict we are defining the value with the objects, Sipmly it is a mapped data;

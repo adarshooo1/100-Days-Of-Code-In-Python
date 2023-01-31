@@ -1,0 +1,32 @@
+////////////////Loops////////////////
+Case 2: while() loops.
+
+A while loop is used to repeatedly execute a block of code as long as a certain condition is True.
+Here is an example of a while loop that counts up from 1:
+
+//////////CODE//////////////
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+//////////////////////////////
+
+This will also print the numbers 1, 2, 3, 4, and 5 to the console. The loop continues to execute as
+long as the condition i <= 5 is True.
+
+You can use the break statement to exit a loop prematurely, and the continue statement to skip the
+rest of the current iteration and move on to the next one.
+
+///////////CODE/////////////////////
+for i in [1, 2, 3, 4, 5]:
+    if i % 2 == 0:
+        continue  # skip the rest of the current iteration
+    print(i)
+
+i = 1
+while i <= 5:
+    if i == 3:
+        break  # exit the loop
+    print(i)
+    i += 1
+///////////////////////////////////////

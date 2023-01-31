@@ -1,0 +1,11 @@
+In Day 5 we are learning about Comments, Escape Sequences & print Statement
+
+We are able to make any line in the comment,with the help of # symbol.
+ 
+
+With the help of ctrl + / , we are able to comment and un-comment with this in the
+single click. 
+
+In """In Triple single quote it will be multi line comments """
+
+Comments are not affecting the line of code in the programm    

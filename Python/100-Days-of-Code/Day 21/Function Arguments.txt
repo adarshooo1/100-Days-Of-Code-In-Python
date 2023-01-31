@@ -1,0 +1,24 @@
+Functions arguments and return statement
+
+There are four types of Arguments thet we can provide in a funcition:
+1) Default Arguments
+2) Keyword Arguments
+3) Variable Length Arguments
+4) Required Arguments
+
+Default Arguments:
+ We can provide a default value while creating a function. This way the function assumes a default value even if a value is not provided
+ in the function call for that arguments.
+
+Keyword Argument:
+ We can provide argument with key = value,this way the interpretator racognizes the arguements by the parameter name.Hence,
+ the the order in which the arguements are passed does not matter.
+
+Variable-Length argument:
+ Sometimes we may need to pass more arguements than those defined in the actual function.
+ This can be done using variable-length arguments.
+
+Required Argument:
+ In case we don't pass the argument with a key= value syntax, thenit is necessary to pass the argument in the correct positional order
+ and the number of argument passed should match actual functions definations 
+

@@ -1,0 +1,68 @@
+In Python, a tuple is an immutable sequence type. Tuples are similar to lists, but they are fixed in size and cannot be modified once created.
+
+Tuple are declred in small braces () and , inside it.
+
+Here is an example of how you can create a tuple in Python:
+
+////////////////////CODE//////////////////////
+# create an empty tuple
+my_tuple = ()
+
+# create a tuple of integers
+my_tuple = (1, 2, 3, 4, 5)
+
+# create a tuple of mixed data types
+my_tuple = (1, 'hello', 3.14, True)
+
+# create a tuple of tuples
+my_tuple = ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+///////////////////////////////////////////////
+
+You can access the elements of a tuple using their index, just like you would with a list. The index of a tuple starts at 0 for the first element and goes up to the length of the tuple minus 1 for the last element.
+
+Here is an example of how you can access the elements of a tuple:
+
+/////////////////CODE/////////////////////
+my_tuple = (1, 2, 3, 4, 5)
+
+# access the first element
+print(my_tuple[0])  # 1
+
+# access the last element
+print(my_tuple[-1])  # 5
+
+# access the third element
+print(my_tuple[2])  # 3
+
+# access the second and third elements
+print(my_tuple[1:3])  # (2, 3)
+////////////////////////////////////////////
+
+Since tuples are immutable, you cannot modify the elements of a tuple. However, you can create a new tuple with the modified elements.
+
+For example:
+
+///////////////////CODE///////////////////
+my_tuple = (1, 2, 3, 4, 5)
+
+
+# create a new tuple with the second and third elements modified
+new_tuple = (my_tuple[0], 'hello', my_tuple[2:])
+print(new_tuple)  # (1, 'hello', (3, 4, 5))
+You can also use the + operator to concatenate tuples, and the * operator to repeat a tuple a given number of times.
+/////////////////////////////////////////////////////
+
+For example:
+
+//////////////////////////CODE//////////////////////
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+
+# concatenate the tuples
+concatenated_tuple = tuple1 + tuple2
+print(concatenated_tuple)  # (1, 2, 3, 4, 5, 6)
+
+# repeat the tuple
+repeated_tuple = tuple1 * 3
+print(repeated_tuple)  # (1, 2, 3, 1, 2, 3, 1, 2, 3)
+/////////////////////////////////////////////////////

@@ -1,0 +1,17 @@
+In Python, sets are collections of unique elements, and they are implemented using the set class. Sets are mutable, which means that you can add or remove elements from a set after it is created.
+
+Here are some common methods that can be used to work with sets:
+
+add(element): Adds a single element to the set. If the element already exists in the set, it will not be added again.
+update(iterable): Adds all the elements from an iterable (such as a list or another set) to the set. If any of the elements already exist in the set, they will not be added again.
+remove(element): Removes a single element from the set. If the element does not exist in the set, it will raise a KeyError.
+discard(element): Removes a single element from the set. If the element does not exist in the set, it will not raise an error.
+pop(): Removes and returns an arbitrary element from the set. If the set is empty, it will raise a KeyError.
+clear(): Removes all elements from the set.
+union(iterable): Returns a new set that contains all elements from the original set, as well as all elements from the specified iterable.
+intersection(iterable): Returns a new set that contains only the elements that are common to both the original set and the specified iterable.
+difference(iterable): Returns a new set that contains only the elements that are in the original set but not in the specified iterable.
+symmetric_difference(iterable): Returns a new set that contains the elements that are in either the original set or the specified iterable, but not in both.
+issubset(iterable): Returns True if the original set is a subset of the specified iterable (i.e., all elements of the original set are also in the specified iterable), and False otherwise.
+issuperset(iterable): Returns True if the original set is a superset of the specified iterable (i.e., all elements of the specified iterable are also in the original set), and False otherwise.
+isdisjoint(iterable): Returns True if the original set and the specified iterable have no elements in common, and False otherwise.

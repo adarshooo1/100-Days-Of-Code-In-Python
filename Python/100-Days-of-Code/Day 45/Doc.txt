@@ -1,0 +1,31 @@
+if __name__ == "__main__" is a common idiom in Python that is used to determine if a file is being run as the main program or if it is being imported as a module into another program. When a Python file is run, the __name__ variable is set to "__main__". If the file is imported as a module into another program, the __name__ variable is set to the name of the module. This idiom allows you to write code that is only executed when the file is run as the main program and not when it is imported as a module.
+
+
+////////////////////////code//////////////////
+def main():
+    print("I am the main function")
+
+if __name__ == "__main__":
+    main()
+///////////////////////////////////////////////    
+
+When running above python file, it will print "I am the main function"
+
+If you import this file into another program, the main function will not be executed.
+
+
+Question:-Why it is important?
+
+It is important because it allows you to write code that can be both run as a
+standalone program and also imported and used as a module in another program.
+
+When you write a module, it's very likely that you don't want the code in it
+to be executed when the module is imported. The if __name__ == "__main__" idiom
+allows you to separate the code that should only be executed when the module is
+run as the main program from the code that should be executed when the module is imported.
+
+Additionally, It allows you to test the module by running it as a standalone script
+and also you can reuse the module in other projects.
+
+In summary, it's a way to control the execution flow of a script, It helps in keeping
+your code organized and also it makes it more reusable.

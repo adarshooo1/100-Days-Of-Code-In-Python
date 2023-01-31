@@ -1,0 +1,16 @@
+f-strings means:- formatting in the strings
+
+It is a new string formatting mechanism introduced by the PEP 498. It is also known as literal Strings Interpolitation or more commonly as F-Strings
+(f character preceding the strign literel). The primary focus of this mechanism is to make the interpolitation easier.
+
+When we prefix the string with the letter 'f', the string becomes the f-string itself. The f-string can be formatted in much same as the
+str.format() method. The f-string offers a convenient way to embed Python
+expression inside string litera for foramtting.
+
+Example:-
+///////////////CODE//////////////////
+Name = "Adarsh"
+print(f"Hello{Name}) # Hello Adarsh
+//////////////////////////////////////
+
+Here is simply formatting the Name string with the Object.

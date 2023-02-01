@@ -1,2 +1,0 @@
-Can we use Else Statement with for loop without using If before.
-So,The answer is Yes we can use the else statement with for loop only.

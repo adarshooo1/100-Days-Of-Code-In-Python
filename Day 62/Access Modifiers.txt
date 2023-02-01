@@ -1,0 +1,33 @@
+As such in Python there is no concept of access modifiers like:
+1. public 
+2. Private
+3. protected
+
+By defination, private memeber of a class (Variable or methods)
+are those member which are only accessible inside the class.
+We cannot use private member outside of class.
+
+In.Python, there is no strict concept of "Private" access modifiers like in 
+some other programming languages. However, a convention has been establish to
+indicate that a variable or method should be considered private by prefixing
+its name with a double underscore(__). this is known as a "Week internal use indicator"
+and it is a convention only, not a strict rule. Code outside the class can still access these "private"
+variables and methods, but it is generally understood that they should not be accessed or modified.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Name Mangling:
+
+This for treated as a Private access modifier.
+
+Name mangling in Python refers to the mechanism used to protect class-private members from external access.
+It is a feature of the Python programming language that adds a prefix underscore ('_') to the names of
+class-private variables and methods. This makes it harder for external code to access these members,
+though it is not impossible and the members can still be accessed if one knows their mangled names.
+
+
+# Protected Access Modifiers
+
+# In OOPS ,the term "Protected" is used to describe a member of a class that is intended to be accessed only by the class itself and its sub-class.
+# In Python, the convention for indicating that a member is protected is to prefix its name with a single underscore (_). For example,f a class has a method called 
+# _my_method, it is indicating that the method should be accessed by the class itself and its subclsss; 
+

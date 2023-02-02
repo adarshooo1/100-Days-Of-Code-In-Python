@@ -16,11 +16,6 @@ while(True):
          continue
 
 
-    if UserInput == "X":
-         print("Game Over")
-         break
-
-
     # For Genrating the random number
     Computer_Input = random.randint(0,2)
 
@@ -35,7 +30,3 @@ while(True):
 
     else:
        print("You Loose! Computer Win")
-
-
-
-   

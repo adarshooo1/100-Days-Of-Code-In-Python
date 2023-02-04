@@ -1,0 +1,8 @@
+In Pythin, variables can be defined at the class level or at the instance level.
+Understandinf between these types of variable is cruciral for writing efficient
+and maintainable code.
+
+Class Variable
+Class variable are defined at the class level and are shared among all instance of the class,
+They are defined outside of any method and are usually used to store information that s commmon to all instance of the 
+calss. For Example, a class variable can be used to store the number of instance of a class that have been created.

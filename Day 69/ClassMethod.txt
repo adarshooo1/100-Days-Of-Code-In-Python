@@ -1,0 +1,21 @@
+In Pythron,classes are a way to define custom data types that can 
+store data and define funcitons that can manipulate that data. 
+One type of function that can be defined within a class is called a 
+"Method". In this blog post, we will explore what Python class methods 
+are, why they are useful, and how to use them.
+
+
+In Python, class methods are methods that are bound to the class and not
+the instance of the class. They are defined using the @classmethod decorator,
+and take a reference to the class itself as the first argument, typically named
+cls. Class methods can be used to alter the state of the class, create class-level
+utility methods, or provide alternative constructors for a class.
+
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    @classmethod
+    def square(cls, side_length):
+        return cls(

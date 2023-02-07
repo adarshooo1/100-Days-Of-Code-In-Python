@@ -18,4 +18,8 @@ class Rectangle:
 
     @classmethod
     def square(cls, side_length):
-        return cls(
+         return cls(side_length, side_length)
+
+square = Rectangle.square(5)
+print(square.width)
+print(square.height)

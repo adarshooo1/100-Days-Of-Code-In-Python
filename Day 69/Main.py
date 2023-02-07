@@ -1,3 +1,4 @@
+# Example 1
 class Employee:
     company = "Apple"
     def show(self):
@@ -20,6 +21,7 @@ Emp1.changeCompany("Google") #Here we changed the company name, but still this i
 print(Employee.company) # But still the company name is not changed for the class variable.
 
 
+# Example 2
 class Employee2:
     Company2 = "Ienergizer"
     def stud(self):

@@ -1,0 +1,8 @@
+A class method can be used as an alternative constructor in Python.
+A class method is a method that is bound to the class and not the
+instance of the object. It is defined using the @classmethod decorator
+and takes the class as the first argument, rather than self.
+
+A common use case for class methods as alternative constructors is to
+provide multiple ways to create objects from a class, each with a
+different set of arguments.

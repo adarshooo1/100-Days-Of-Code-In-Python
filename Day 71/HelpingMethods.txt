@@ -1,0 +1,89 @@
+Helping methods in Python
+
+1-> dir()
+2-> __dict__()
+3-> help()
+
+We must look into dir(), __dict__() and help() attribute/methods in python. They 
+make it easy for us to understant how classes resolve various functions and executes code. 
+In Python, there are three built-in functions that are commonly used to get information about objects:
+dir() , __dict__() and help(). Let's take a look at each of them.
+
+1. dir()  ->  Method will help in to get all method associated with the object of the class :
+Example:
+
+value = [1,2,3,4,5]
+print(dir(value))
+
+# Output: ['__add__', '__class__', '__class_g
+etitem__', '__contains__', '__delat
+tr__', '__delitem__', '__dir__', '_
+_doc__', '__eq__', '__format__', '_
+_ge__', '__getattribute__', '__geti
+tem__', '__getstate__', '__gt__', '
+__hash__', '__iadd__', '__imul__',
+'__init__', '__init_subclass__', '_
+_iter__', '__le__', '__len__', '__l
+t__', '__mul__', '__ne__', '__new__
+', '__reduce__', '__reduce_ex__', '
+__repr__', '__reversed__', '__rmul_
+_', '__setattr__', '__setitem__', '
+__sizeof__', '__str__', '__subclass
+hook__', 'append', 'clear', 'copy',
+ 'count', 'extend', 'index', 'inser
+t', 'pop', 'remove', 'reverse', 'so
+rt']
+
+
+2.__dict__() -> Method in Python will give all the instance associated with the self keyword inside the class.
+# Example 2: __dict__()
+class Master:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.version = 1
+
+Human = Master("Adarsh", 20)
+print(Human.__dict__) 
+
+
+# the __ dict__() Method will print all the item in self method in the class.{'name': 'Adarsh', 'age': 20, 'version': 1}
+
+
+
+3.help() -> The help() functions use to get help documentation for an object, indicating of its attributed and methods.
+
+# Example:- 
+# With the previous class Master we will use this help method
+
+print(help(Master))
+
+# output below this will give a ducumentation of the help.
+
+# Help on class Master in module __ma
+# in__:
+
+# class Master(builtins.object)
+#  |  Master(name, age)
+#  |
+#  |  # Example 2: __dict__()
+#  |
+#  |  Methods defined here:
+#  |
+#  |  __init__(self, name, age)
+#  |      Initialize self.  See help(
+# type(self)) for accurate signature.
+#  |
+#  |  -------------------------------
+# -----------------------------------
+# ----
+#  |  Data descriptors defined here:
+#  |
+#  |  __dict__
+#  |      dictionary for instance var
+# iables (if defined)
+#  |
+#  |  __weakref__
+#  |      list of weak references to
+
+# None

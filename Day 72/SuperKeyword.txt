@@ -1,0 +1,5 @@
+In Python, the "super" keyword is used to refer to the parent class.
+It can be used to call a method in the parent class from a subclass.
+The purpose of using "super" is to allow for inheritance to work effectively,
+by allowing you to override the methods of a parent class in a subclass and
+still have access to the methods in the parent class.

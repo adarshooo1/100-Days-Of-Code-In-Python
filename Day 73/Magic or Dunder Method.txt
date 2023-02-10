@@ -1,0 +1,36 @@
+Magic / Dunder Methods in Python
+
+These are special method that you can define in your classes,
+and when invoked , they  give you a powerful way to manipulate
+objects and their behaviour.
+
+Magic Method, also known as "Dunder" from the double underscores 
+surrounding their names, are powerful tools that allow you to customize the behaviour
+of your classes. They are used it implement special mathds such as the addution, substraction
+and comparision operators, as well as some more 
+advanced techniques like descriptors and properties.
+
+
+
+In Python, "magic methods" and "dunder methods" (short for "double underscore methods") are special methods
+that have double underscores at the beginning and end of their names (e.g. __call__, __str__, __add__).
+They have special behavior in Python and are used to define custom behaviors for objects, such as operator
+overloading, object creation and destruction, and many others.
+
+For example, the __str__ method can be used to define a human-readable string representation of an object,
+which is used by the print function, str function, and other places that need to display the object in a way
+that is easy to read.
+
+Here are a few examples of common magic methods:
+
+__init__: This is called when an object is created from a class and is used to initialize the object's state.
+
+__str__: This is used to define a string representation of an object and is used by functions such as print, str, and format.
+
+__len__: This is used to define the length of an object and is used by the len function.
+
+__add__: This is used to define the behavior of the + operator for objects of a class.
+
+__call__: This makes an object callable, just like a function, by defining the behavior of the call operator (()).
+
+In general, magic methods are an essential part of creating custom objects in Python, and they give you the ability to define custom behaviors for objects that behave like built-in Python types.

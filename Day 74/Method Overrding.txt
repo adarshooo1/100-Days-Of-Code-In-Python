@@ -1,0 +1,24 @@
+Method overriding is a feature in object-oriented programming that allows a subclass to provide a different implementation of a method
+that is already defined in its superclass. It is used to extend or modify the behavior of the method in the subclass, while still
+retaining the same method signature.
+
+In Python, method overriding is achieved by defining a method in the subclass with the same name as the method in the superclass.
+When the method is called on an instance of the subclass, the implementation in the subclass is executed instead of the implementation
+in the superclass.
+
+Here's an example to illustrate method overriding in Python:
+
+///////////////////////////////////////////////////////
+class Animal:
+    def make_sound(self):
+        print("Animal sound")
+
+class Dog(Animal):
+    def make_sound(self):
+        print("Bark")
+
+dog = Dog()
+dog.make_sound() # Output: Bark
+/////////////////////////////////////////////////////////
+In this example, the Dog class overrides the make_sound method from the Animal class. When we create an instance of Dog and call the
+make_sound method, the implementation in the Dog class is executed and the output is "Bark".

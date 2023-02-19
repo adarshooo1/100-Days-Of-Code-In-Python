@@ -1,0 +1,5 @@
+Multiple Inheritance
+
+Multiple Inheritance is a powerful feature in object-oriented programming that allows a class to inherit
+attribute and mehtods from multiple parent classes , This can be useful in situation where a class need 
+to inherit funcitonally from multiple sources.

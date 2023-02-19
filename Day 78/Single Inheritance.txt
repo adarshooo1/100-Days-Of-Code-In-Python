@@ -1,0 +1,7 @@
+Single Inheritance is the most common type of Inheritance.
+
+///Syntax////
+
+The syntax for thr single inheritance in Python is straight forward and easy to
+understand. To creat a new class that inherits form a parent class, simply specify
+the parent class in the class.

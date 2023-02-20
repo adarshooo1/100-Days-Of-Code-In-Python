@@ -1,0 +1,17 @@
+Multilevel Inheritance in Python is a type of Inheritance that involves inheriting a
+class that has already inherited some other class. That means the derived/subclass
+class inherits the features of the base class/parent class, and the new derived
+class inherits the features of the derived class.
+
+# Example 1:
+class GrandFather:
+    # Grand Father is the parent class:
+    pass
+
+class Father(GrandFather):
+    # Father is the derived class from Grand Father.
+    pass
+
+class Son(Father):
+    # Son class is the derived class and derived class itself is a derived class form Grand Father.
+    pass

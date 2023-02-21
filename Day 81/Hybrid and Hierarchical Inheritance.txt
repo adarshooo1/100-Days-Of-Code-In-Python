@@ -1,0 +1,26 @@
+HyBrid Inheritance:
+
+Whenever we use more than one Iheritance this is known is Hierarchical Inheritance.
+
+Hybrid inheritance and hierarchical inheritance are two different types of inheritance
+in object-oriented programming.
+
+Hybrid inheritance refers to a combination of two or more types of inheritance in a single
+class hierarchy. This means that a class is derived from two or more base classes, where one
+or more of those base classes are inherited using different types of inheritance. For example,
+a class can be derived from a parent class using multiple inheritance, and then that child class
+can serve as a base class for another child class using hierarchical inheritance. This results in
+a complex inheritance hierarchy with multiple levels of inheritance.
+
+
+Hierarchical Inheritance:
+
+Hierarchical inheritance, on the other hand, refers to a type of inheritance in which a single parent
+class serves as the base class for two or more child classes. This means that multiple child classes
+are derived from a single parent class, creating a tree-like hierarchy. Each child class inherits all
+the properties and methods of the parent class, and can also have its own unique properties and methods.
+
+In general, inheritance is a fundamental concept in object-oriented programming that allows classes to
+inherit properties and behaviors from other classes. This can make it easier to create new classes that
+are similar to existing ones, and can help to reduce code duplication and improve code organization. However,
+it's important to use inheritance carefully, as it can make code more complex and harder to maintain if used excessively.

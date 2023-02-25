@@ -1,0 +1,21 @@
+The time module in Python provides a number of functions to manipulate time values. It is primarily used for working with timestamps and measuring the performance of code. Here are some of the functions provided by the time module:
+
+time() - This function returns the number of seconds that have elapsed since January 1, 1970 (the Unix epoch). It is often used to measure the performance of code.
+
+ctime() - This function takes a timestamp as an argument and returns a string representing the local time.
+
+sleep() - This function suspends the execution of the current thread for a specified number of seconds.
+
+gmtime() - This function takes a timestamp as an argument and returns a named tuple representing the corresponding UTC time.
+
+localtime() - This function takes a timestamp as an argument and returns a named tuple representing the corresponding local time.
+
+strftime() - This function takes a timestamp and a format string as arguments, and returns a string representing the time in the specified format.
+
+strptime() - This function takes a string and a format string as arguments, and returns a named tuple representing the time parsed from the string.
+
+perf_counter() - This function returns the value of a performance counter, which can be used to measure the performance of code.
+
+process_time() - This function returns the CPU time used by the current process, which can also be used to measure the performance of code.
+
+There are many more functions provided by the time module, but these are some of the most commonly used ones.

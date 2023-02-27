@@ -1,0 +1,8 @@
+A command line utility is a program that runs in a terminal or
+command prompt and accepts input and output through the command line.
+In Python, command line utilities are created using the argparse module,
+which provides a framework for building command-line interfaces.
+
+Using argparse, you can define command line arguments and options that your program accepts,
+as well as provide help messages and error handling. Once you've defined your arguments,
+you can use them in your program to perform specific actions based on the input.

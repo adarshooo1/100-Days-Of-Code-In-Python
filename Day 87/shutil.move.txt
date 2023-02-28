@@ -1,0 +1,5 @@
+Example 3.
+
+This file is in New_tutorial folder with the name "shutil.move.txt"
+
+We will move this file into the "Day 87" folder of the python.

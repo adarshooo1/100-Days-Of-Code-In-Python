@@ -1,0 +1,1 @@
+this is for the testing purpose of shutil.copytree() in which is will copy a folder with it content inside it.

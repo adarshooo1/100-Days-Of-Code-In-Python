@@ -1,2 +1,31 @@
 Shutil Method help in to perform the high level opertations.
 
+It is used to automate tasks related to copying, moving, and deleting files and directories. Here are some commonly used methods in the shutil module:
+
+shutil.copy(src, dst) - This method copies the file at the path src to the location dst. If dst is a directory, the file will be copied into that directory with the same name. If dst already exists, it will be overwritten.
+
+shutil.copy2(src, dst) - This method is similar to shutil.copy(), but also preserves the metadata (such as creation and modification times) of the file.
+
+shutil.move(src, dst) - This method moves the file or directory at the path src to the location dst. If dst is a directory, the file or directory will be moved into that directory with the same name. If dst already exists, it will be overwritten.
+
+shutil.rmtree(path) - This method removes the directory at the path path and all its contents.
+
+shutil.make_archive(base_name, format, root_dir, base_dir) - This method creates an archive file (such as a ZIP or TAR file) from the directory at root_dir, with the name base_name and format format. The base_dir parameter specifies the subdirectory within root_dir that should be archived.
+
+shutil.unpack_archive(filename, extract_dir) - This method extracts the contents of the archive file at filename into the directory extract_dir.
+
+shutil.disk_usage(path) - This method returns a named tuple containing the total, used, and free disk space in bytes for the file system containing the path path.
+
+shutil.copyfile(src, dst) - This method copies the contents of the file at the path src to the file at the path dst. If dst already exists, it will be overwritten.
+
+shutil.copymode(src, dst) - This method copies the permissions (mode bits) of the file at the path src to the file at the path dst.
+
+shutil.copytree(src, dst) - This method recursively copies the entire directory tree rooted at src to the destination dst.
+
+shutil.rmtree(path, ignore_errors=False, onerror=None) - This method recursively deletes the directory at the path path, including all its contents. If ignore_errors is True, any errors encountered during the deletion will be ignored. If onerror is specified, it should be a function that will be called to handle any errors encountered during the deletion.
+
+shutil.which(cmd, mode=os.F_OK | os.X_OK, path=None) - This method searches the system PATH environment variable for the executable cmd. If found, it returns the full path to the executable. If not found, it returns None.
+
+shutil.get_archive_formats() - This method returns a list of supported archive formats that can be created with shutil.make_archive().
+
+shutil.register_archive_format(name, function, extra_args=None, description=None) - This method registers a new archive format with the name name. The function parameter should be a function that takes two arguments: a base name and a directory name, and returns the path to the created archive file. The extra_args parameter should be a tuple of additional arguments that will be passed to the function. The description parameter should be a string describing the format.

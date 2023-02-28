@@ -1,0 +1,26 @@
+The request module in Python is a popular third-party library that allows you to send HTTP/1.1 requests extremely easily. With it, you can interact with APIs and websites, send GET and POST requests, and manipulate the data that you receive in response.
+
+To use the requests module, you first need to install it. You can do this by running pip install requests in your terminal.
+
+import requests
+
+response = requests.get('https://api.github.com')
+print(response.status_code) # This will print the status code of the response (200 if successful)
+
+# You can also access the content of the response:
+print(response.content)
+
+
+
+
+In the context of making HTTP requests using Python's requests module, a response is the data that is returned by the server in response to the request that was sent.
+
+The response object returned by the requests module includes a variety of properties and methods that allow you to examine and work with the response data. Some of the most commonly used properties and methods of the Response object include:
+
+status_code: The HTTP status code of the response (e.g. 200 for success, 404 for not found, etc.).
+text: The content of the response as a string.
+content: The content of the response as bytes.
+json(): If the response content is in JSON format, this method returns a Python object (usually a dictionary) representing the JSON data.
+In addition to these properties and methods, the Response object also includes various headers that provide information about the response, such as the content type and length, and cookies that were set by the server.
+
+By examining the response object returned by requests, you can extract the data you need from the server's response and use it in your Python program.

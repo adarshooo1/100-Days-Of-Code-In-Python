@@ -22,7 +22,8 @@ print("Done for 22")
 
 # This is already store in the lru_cache so it will not take time to computer again it just take the value match the value if
 # same then print the already same existing answer else it will have to computer then print the answer and store the value of
-# the next time if the same value is again come back.(simply store the Data and if needed then it returns). It Memoize the value, Which take the space to store the value and once the program again run then it will clear the past store cache and again start filling cache as a new.
+# the next time if the same value is again come back.(simply store the Data and if needed then it returns). It Memoize the value,
+# Which take the space to store the value and once the program again run then it will clear the past store cache and again start filling cache as a new.
 print(fx(20))
 print("Done for 20")
 print(fx(2))

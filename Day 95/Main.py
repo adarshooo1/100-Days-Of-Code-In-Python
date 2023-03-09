@@ -41,9 +41,3 @@ match3 = re.finditer(patter2 , string2)
 for matches in match3:
     print(matches)
 # output:-  <re.Match object; span=(13, 18), match='Works'> <re.Match object; span=(394, 399), match='porks'>   
-
-
-
-
-
-

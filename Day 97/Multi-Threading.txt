@@ -1,0 +1,2 @@
+Multi-Threading is a Python module that provides a simple way to run multi processes in parallel. It allows you to take advantage
+of multiple crores or processors on your system and can significantly improve the proformance of your code.

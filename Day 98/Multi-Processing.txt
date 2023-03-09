@@ -1,0 +1,17 @@
+Multi-processing is a programming technique where a program creates multiple
+processes to perform different tasks simultaneously. Each process runs in parallel
+with the other processes and has its own memory space and system resources, such as CPU and memory.
+
+In Python, the multiprocessing module provides support for creating and managing multiple processes
+in a program. Multi-processing is useful when a program needs to perform several CPU-intensive tasks
+concurrently, such as running multiple machine learning models or simulating a large number of scenarios.
+
+Using multi-processing can improve the overall performance of a program by allowing it to make better
+use of available system resources, such as multiple CPU cores or machines. However, multi-processing
+also comes with some challenges, such as managing communication and synchronization between processes
+and dealing with potential issues like race conditions or deadlocks.
+
+It's important to use multi-processing judiciously and design programs carefully to avoid these issues.
+Multi-processing is particularly useful in situations where multi-threading is not sufficient or not possible,
+such as when running CPU-intensive tasks on a single CPU machine or when dealing with I/O-bound tasks that
+require waiting for external resources.

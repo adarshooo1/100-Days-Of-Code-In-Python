@@ -1,2 +1,11 @@
 Multi-Threading is a Python module that provides a simple way to run multi processes in parallel. It allows you to take advantage
 of multiple crores or processors on your system and can significantly improve the proformance of your code.
+
+In Python, the threading module provides support for creating and managing multiple threads in a program. Multi-threading is
+useful when a program needs to perform several time-consuming tasks concurrently, such as processing large amounts of data
+or handling multiple client requests in a server application.
+
+Using multi-threading can improve the overall performance of a program by allowing it to make better use of available resources,
+such as multiple CPU cores. However, multi-threading also comes with some challenges, such as ensuring thread safety and avoiding
+issues like race conditions or deadlocks. It's important to use multi-threading judiciously and design programs carefully to avoid
+these issues.

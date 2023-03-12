@@ -1,0 +1,2 @@
+Conclusion = " Conclusion Congratulations on completing the 100 days of Python code challenge!\nYou have likely gained a solid foundation in the language and developed a range of skills,\nfrom basic syntax to more advanced concepts such as object-oriented programming.\nHowever, this is just the beginning of your journey with Python.\nThere are many more topics to explore, including machine learning, web development, game development, and more."
+print(Conclusion)
